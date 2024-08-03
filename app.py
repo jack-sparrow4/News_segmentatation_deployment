@@ -60,7 +60,7 @@ def model_predict(model, input_text):
     print("Model output", output)
     output_category = news_classes[str(output[0])]
     print(output_category)
-    final_output = "The news category is {}".format(output_category)
+    final_output = "The news category is {} and I love you pooja".format(output_category)
     return final_output
 
 if st.button('Classify'):
